@@ -1,13 +1,13 @@
-# MuSTC-2D: 2D Muography algorithm from USTC
-# 2D Muography for Average Density Reconstruction Using Cosmic Muons
+# MuonSTC-2D: 2D Muography algorithm from USTC
+2D Muography for Average Density Reconstruction Using Cosmic Muons
 
-**MuSTC** is a muon 2D transmission imaging code developed by the USTC team. By acquiring muon data from open sky and objects in experimental or simulated scenarios, a 2D density map of the object can be obtained. We applied it to image the teaching and administrative building in the east campus and achieved excellent results.
+**MuonSTC-2D** is a muon 2D transmission imaging code developed by the USTC team. By acquiring muon data from open sky and objects in experimental or simulated scenarios, a 2D density map of the object can be obtained. We applied it to image the teaching and administrative building in the east campus and achieved excellent results.
 
 ---
 
 ## Citation
 
-If you use or refer to **MuSTC**, please cite the following paper:  
+If you use or refer to **MuonSTC**, please cite the following paper:  
 > **He, Z. Y., Pan, Z. W., Liu, Y. L., Wang, Z., Lin, Z. B., Chen, Z., ... & Ye, B. J. (2024). Feasibility and optimization study of a two-dimensional density reconstruction method for large-object muography. *Nuclear Instruments and Methods in Physics Research Section A: Accelerators, Spectrometers, Detectors and Associated Equipment, 1061*, 169138.**  
 >
 > *[Link to the paper](https://doi.org/10.1016/j.nima.2024.169138))*
