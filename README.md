@@ -14,7 +14,7 @@ If you use or refer to **MuonSTC**, please cite the following paper:
 
 
 # Usage:
-The files `build 10.txt` and `sky 10.txt` contain the muon data received by two layers of detectors. The data includes the positions \((x_1, y_1, z_1)\) and \((x_2, y_2, z_2)\) as well as the energies \(E_1\) and \(E_2\). (For experimental data, if energy information is unavailable, substitute values greater than the energy threshold.) The file format is:  
+The files `build.txt` and `sky.txt` contain the muon data received by two layers of detectors. The data includes the positions \((x_1, y_1, z_1)\) and \((x_2, y_2, z_2)\) as well as the energies \(E_1\) and \(E_2\). (For experimental data, if energy information is unavailable, substitute values greater than the energy threshold.) The file format is:  
 ```
 x1 y1 z1 x2 y2 z2 E1 E2
 ```
