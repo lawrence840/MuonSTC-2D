@@ -14,13 +14,13 @@ If you use or refer to **MuonSTC**, please cite the following paper:
 
 
 # Usage:
-The files `BF2.txt` and `sky2.txt` contain the muon data received by two layers of detectors under BF and opensky situations. The data includes the positions \((x_1, y_1, z_1)\) and \((x_2, y_2, z_2)\) as well as the energies \(E_1\) and \(E_2\). (For experimental data, if energy information is unavailable, substitute values greater than the energy threshold.) The file format is:  
+The files `BF2.txt` and `sky2.txt` contain the muon data received by two layers of detectors under Blast Furnace (BF) and opensky situations. The data includes the positions \((x_1, y_1, z_1)\) and \((x_2, y_2, z_2)\) as well as the energies \(E_1\) and \(E_2\). (For experimental data, if energy information is unavailable, substitute values greater than the energy threshold.) The file format is:  
 ```
 x1 y1 z1 x2 y2 z2 E1 E2
 ```
 Replace these two files with your own simulated or experimental data.
 
-The files `density-calculate.txt` and `length-calculate.txt` provide the thickness and average density angular distribution of the object from the detector's perspective. If only a 2D density map reconstruction is required, the thickness distribution alone is sufficient. However, if you need to calculate the Mean Squared Error (MSE) between the reconstructed density and the theoretical density, you must also input the theoretical density distribution.
+The files `density-calculate-36.txt` and `length-calculate-36.txt` provide the thickness and average density angular distribution of the object from the detector's perspective (36m away from the center of BF). If only a 2D density map reconstruction is required, the thickness distribution alone is sufficient. However, if you need to calculate the Mean Squared Error (MSE) between the reconstructed density and the theoretical density, you must also input the theoretical density distribution.
 
 The files `output_power.txt` and `output_quad.txt` are used for interpolation solutions of two complex formulas when calculating opacity from the muon's minimum energy.
 
